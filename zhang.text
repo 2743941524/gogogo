@@ -32,6 +32,11 @@ git add 文件名： 添加到暂存区
 git commit -m "备注信息" 文件名， 提交操作
 将暂存区提交到本地库
 
+git log :查看本地库中的版本号
+git log --pretty=oneline：查看本地库中的版本号一行打印
+
+
+
 
 git rm --cachend 文件名：删除仓库保留本地文件
 
