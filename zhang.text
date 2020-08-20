@@ -34,9 +34,6 @@ git commit -m "备注信息" 文件名， 提交操作
 
 
 
-git rm --cachend 文件名：删除仓库保留本地文件
-
-
 
 
 
@@ -47,12 +44,18 @@ git log --oneline：查看本地库中的版本号一行打印
 
 
 操作HEAD指针来实现版本前进后退
-zhang
+git reset --hard 哈希值 （前进后退）
+
+
+删除本地库文件
+rm 文件名
+
+git rm --cachend 文件名：删除仓库保留本地文件
 
 
 
-
-
+git branch -v：查看分支
+（如果没有创建分支就只有一个主分支master）
 
 
 
