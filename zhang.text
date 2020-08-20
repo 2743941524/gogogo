@@ -47,6 +47,7 @@ git log --oneline：查看本地库中的版本号一行打印
 
 
 操作HEAD指针来实现版本前进后退
+zhang
 
 
 
